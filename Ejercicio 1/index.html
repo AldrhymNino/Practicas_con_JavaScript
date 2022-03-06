@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificaciones</title>
+    <style>
+        .contenedor {
+            width: 90%;
+            max-width: 1110px;
+            max-height: 500px;
+            margin: 50px auto;
+            overflow: hidden auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        table {
+            width: 100%;
+        }
+
+        tbody tr {
+            background-color: #eeee;
+            text-align: center;
+            border: solid 10px;
+            border-spacing: 20px;
+        }
+
+        td {
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th><h2>Nombre</h2></th>
+                    <th><h2>Apellido</h2></th>
+                    <th><h2>Edad</h2></th>
+                    <th><h2>Notas</h2></th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
